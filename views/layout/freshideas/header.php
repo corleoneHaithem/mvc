@@ -19,7 +19,7 @@
    <header>
 
    <!--start logo-->
-   <a href="#" id="logo"><img src="http://localhost/mini-mvc/views/layout/freshideas/images/logo.png" width="221" height="84" alt="logo"/></a>    
+   <a href="#" id="logo"><?php $this->loadImg('logo.png') ?></a>    
    <!--end logo-->
 
    <!--start menu-->

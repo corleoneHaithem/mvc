@@ -35,9 +35,19 @@ class view {
     }
     public function loadStyle($file)
     {
+        /*
+         * ahla walid fel ca hedha le designeur doi taper le nom de fichier css par contre ena n7eb el php ydetecti les nom des fichier css hedhi premier sol wa illa el designeur ywalli obligé ysammi les fichier te3ou b facon standar par exmple style.css 7aja hakka          */
         echo '<link rel="stylesheet" type="text/css" href="'.config::BASE_URL.'views/layout/'.config::DEFAULT_LAYOUT.'/css/'.$file.'.css"/>';
     }
-   
+    public function loadJs($file)
+    {
+        //kif kif
+    }
+    public function loadImg($file)
+    {
+        echo '<img src="'.config::BASE_URL.'views/layout/'.config::DEFAULT_LAYOUT.'/images/'.$file.'" />';
+    }
+    // bon kayenou ychabah lel wp el fichier de teplate houa el fichier de vue fel ca hedha index.phtml w ya3mel structure te3ou bel interraction dynamique avec layout    
 }
 
 ?>
