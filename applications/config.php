@@ -14,7 +14,7 @@ class config {
     //put your code here
     const DEFAULT_CONTROLLER = 'index';
     const DEFAULT_LAYOUT='freshideas';
-    const BASE_URL='http://localhost/mini-mvc/';
+    const BASE_URL='http://localhost/mvc/';
 }
 
 ?>

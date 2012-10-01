@@ -33,6 +33,10 @@ class view {
             require_once ROOT.'views'.DS.'layout'.DS.config::DEFAULT_LAYOUT.DS.$composant.'.php';
         }
     }
+    public function loadStyle($file)
+    {
+        echo '<link rel="stylesheet" type="text/css" href="'.config::BASE_URL.'views/layout/'.config::DEFAULT_LAYOUT.'/css/'.$file.'.css"/>';
+    }
    
 }
 
