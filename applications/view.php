@@ -1,15 +1,4 @@
 <?php
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- * Description of view
- *
- * @author root
- */
 class view {
     private $_controller;
     public function __construct(request $req) {
@@ -41,7 +30,7 @@ class view {
     }
     public function loadJs($file)
     {
-        //kif kif
+        echo '<script type="text/javascript" src="'.config::BASE_URL.'views/layout/'.config::DEFAULT_LAYOUT.'/js/'.$file.'.js"></script>';
     }
     public function loadImg($file)
     {
