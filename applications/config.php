@@ -13,7 +13,7 @@
 class config {
     //put your code here
     const DEFAULT_CONTROLLER = 'index';
-    const DEFAULT_LAYOUT='theme';
+    const DEFAULT_LAYOUT='layout4';
     const BASE_URL='http://localhost/mvc/';
 }
 
