@@ -10,8 +10,8 @@
  *
  * @author root
  */
-class indexModel {
-    public $x="welcome";
+class postModel extends model {
+    public $post="test";
 }
 
 ?>

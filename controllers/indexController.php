@@ -18,7 +18,7 @@ class indexController extends controller {
     public function index()
     {
         
-        $this->_view->title=$this->loadModel('index')->x;
+        $this->_view->title=$this->loadModel('post')->post;
         $this->_view->render('index');
         
     }
