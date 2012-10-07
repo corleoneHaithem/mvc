@@ -6,15 +6,12 @@
  */
 
 /**
- * Description of model
+ * Description of indexModel
  *
  * @author root
  */
-class model {
-    protected $_db;
-    public function __construct() {
-        $this->_db=new database();
-    }
+class indexModel {
+    public $x="welcome";
 }
 
 ?>

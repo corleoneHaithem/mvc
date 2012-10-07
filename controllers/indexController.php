@@ -17,8 +17,10 @@ class indexController extends controller {
     }
     public function index()
     {
-        $this->_view->title='test';
-        $this->_view->render('index');      
+        
+        $this->_view->title=$this->loadModel('index')->x;
+        $this->_view->render('index');
+        
     }
     
 }
