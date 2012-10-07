@@ -15,6 +15,7 @@ class model {
     public function __construct() {
         $this->_db=new database();
     }
-}
+   }
+
 
 ?>

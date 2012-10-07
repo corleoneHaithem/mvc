@@ -15,5 +15,5 @@ class database extends PDO {
         parent::__construct(config::DB_DRIVER.':host='.config::DB_HOST.';dbname='.config::DB_NAME,config::DB_USER,config::DB_PASS);
     }
 }
-
+   
 ?>

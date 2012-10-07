@@ -11,7 +11,10 @@
  * @author root
  */
 class postModel extends model {
-    public $post="test";
+   public function getPost()
+   {
+       return array('title'=>'corleone','subject'=>'first post','content'=>'welcome to my first post');
+   }
 }
 
 ?>
