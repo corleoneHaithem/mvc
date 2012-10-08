@@ -13,7 +13,9 @@
 class postModel extends model {
    public function getPost()
    {
-       return array('title'=>'corleone','subject'=>'first post','content'=>'welcome to my first post');
+       $sql='SELECT subject,title FROM post';
+       $result=$this->_db->query($sql);
+       return $result->fetch();
    }
 }
 

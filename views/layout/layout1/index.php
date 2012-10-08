@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title><? echo $this->post['title'] ?></title>
+  <title><?php echo $this->post['title']  ?></title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -18,8 +18,8 @@
 
     <!-- begin header -->
     <header>
-      <div id="logo"><h1><?php echo $this->post['title'] ?><a href="#"><?php echo $this->post['subject'] ?>
-              </a><?php echo $this->post['content'] ?></h1></div>
+      <div id="logo"><h1><?php echo $this->post['title']  ?><a href="#">
+              <?php echo $this->post['subject'] ?></a></h1></div>
       <nav>
         <ul class="sf-menu" id="nav">
           <li class="selected"><a href="index.html">home</a></li>
