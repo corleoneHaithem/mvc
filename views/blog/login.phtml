@@ -1,0 +1,12 @@
+<?php
+    if(isset($this->logged))
+    {
+        $this->render('index');
+    }
+    else
+    {
+          $this->get('login');
+    }
+  
+
+?>

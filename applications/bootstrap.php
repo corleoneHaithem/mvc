@@ -62,7 +62,7 @@ class bootstrap {
         $this->_method=$method;
         if(!method_exists($this->_controller, $method))
         {
-            $this->_method='index';
+            throw new Exception('method not found');
         }
     }
     /*
